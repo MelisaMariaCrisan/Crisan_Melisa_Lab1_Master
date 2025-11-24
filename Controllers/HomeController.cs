@@ -23,6 +23,12 @@ namespace Crisan_Melisa_Lab1_Master.Controllers
             return View();
         }
 
+        public IActionResult Start()
+        {
+            return View("Index");
+
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
